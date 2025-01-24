@@ -21,7 +21,7 @@ const teamMembers = [
     name: "Marta Ipsum",
     role: "SEO Specialist",
     email: "martarossi@team.com",
-    img: "female2.png"
+    img: "img/female2.png"
   },
   {
     name: "Roberto Lorem",
@@ -53,7 +53,7 @@ for( i=0; i < teamMembers.length; i++){
   cardContainer.innerHTML +=
   `         <div class="flex">
                 <figure>
-                    <img height="90px" src="./img/${element.img}" alt="">
+                    <img height="90px" src="./${element.img}" alt="">
                 </figure>
                 <div class="flex flex-column">
                     <h5>${element.name}</h5>
